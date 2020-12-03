@@ -111,10 +111,12 @@ a:hover {
   float: right;
 }
 
-.image-slideshow2 {
+.div2-slideshow {
   width: 550px;
   height: 437px;
   background: rgb(67, 57, 209);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   display: inline-block;
 }
 
@@ -126,9 +128,12 @@ a:hover {
   color: aliceblue;
 }
 
-.image-slideshow2 h1 {
+.div2-slideshow h1 {
   color: aliceblue;
   width: 500px ;
   margin: 100px 200px;
   position: absolute;
+}
+.slideshow2 img{
+  border-radius: 20px ;
 }
