@@ -119,14 +119,16 @@ a:hover {
 }
 
 .h1-slidshow2{
-  display: flex;
+  font-weight: 900;
   position: absolute;
-  margin: 200px 500px;
+  top: 350px;
+  left: 550px;
+  color: aliceblue;
 }
 
 .image-slideshow2 h1 {
   color: aliceblue;
-  width: 500px;
+  width: 500px ;
   margin: 100px 200px;
   position: absolute;
 }
