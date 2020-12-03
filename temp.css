@@ -1,0 +1,132 @@
+@font-face {
+  font-family: myfont;
+  src: url("./img/IRAN\ Sans\ Regular\ \(mmrostami.blog.ir\).ttf");
+}
+
+body {
+  margin-top: 0px;
+  font-family: myfont;
+  font-weight: 50;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.header ul li {
+  align-items: center;
+  display: inline;
+  padding-right: 30px;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.header ul {
+  margin-top: 15px;
+  clear: left;
+  /* float: right; */
+}
+
+.a-btn {
+  color: rgb(185, 179, 179);
+  text-decoration-line: none;
+  
+}
+a:hover {
+  color: rgb(138, 138, 138);
+}
+
+.div-btn {
+  position: relative;
+  float: left;
+  margin: -37px 0 0 30px;
+  
+}
+
+.a-header1 {
+  background-color: rgb(190, 190, 190);
+  color: antiquewhite;
+  padding: 5px 15px;
+  border-radius: 10px;
+  text-decoration-line: none;
+}
+
+.a-header2 {
+  background-color: rgb(247, 247, 247);
+  padding: 5px;
+  border-radius: 10px;
+  border-color: rgb(75, 75, 75);
+  border: 20px;
+  text-decoration-line: none;
+}
+
+.div-ul {
+  width: 200px;
+  clear: left;
+}
+
+.hr {
+  position: relative;
+  margin-top: 18px;
+  height: 2px;
+  background-color: rgb(192, 192, 192);
+  border-radius: 5px;
+}
+.a-btn-nav {
+  text-decoration-line: none;
+}
+
+.a-nav {
+  text-decoration-line: none;
+  color: rgb(24, 24, 192);
+  font-size: 25px;
+
+  display: inline-flex;
+  text-align: center;
+}
+
+.nav-header ul{
+  margin: 50px 0 30px;
+}
+
+.nav-header ul li {
+  text-align: center;
+  display: inline;
+  width: 50px;
+  height: 30px;
+  margin: 50px 0 50px;
+}
+
+#div-slideshow {
+  width: 1100px;
+  height: auto;
+  border-radius: 50px;
+  position: relative;
+}
+
+.image-slideshow1 {
+  border-top-right-radius: 25px;
+  float: right;
+}
+
+.image-slideshow2 {
+  width: 550px;
+  height: 437px;
+  background: rgb(67, 57, 209);
+  display: inline-block;
+}
+
+.h1-slidshow2{
+  display: flex;
+  position: absolute;
+  margin: 200px 500px;
+}
+
+.image-slideshow2 h1 {
+  color: aliceblue;
+  width: 500px;
+  margin: 100px 200px;
+  position: absolute;
+}
